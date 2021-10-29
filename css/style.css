@@ -14,10 +14,10 @@ section {
 
 .grille {
     max-width: 1000px;
-    background-color: lightseagreen;
+    background: linear-gradient(45deg,black ,red);
     height: 100%;
     margin: 0 auto;
-
+    
     display: grid;
     grid-template-columns: 2fr 1.5fr 1.5fr 2fr ;
     grid-template-rows: 1fr 2fr ;
@@ -29,6 +29,7 @@ section {
     background: burlywood;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    text-align: center; 
 }
 .grid1{
     background: red;
@@ -46,9 +47,24 @@ section {
     grid-row: 2 / 3;
 }
 .grid3{
-    background: green;
+    background-image: url("../image/moi.jpg");
+    background-position: center;
+    background-size: cover;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
+    text-align: center;
+    padding-top: 170px;
+    border-radius: 50%;
+    
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
 }
 .container{
     position: relative;
