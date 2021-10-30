@@ -26,25 +26,36 @@ section {
 
 }
 .grid0{
-    background: burlywood;
+    background: black;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    text-align: center; 
+    text-align: center;
+    
+    
 }
 .grid1{
-    background: red;
+    background: black;
     grid-column: 3 / 5;
     grid-row: 1 / 2;
+    text-align: center;
+    
+   
 }
 .grid2{
-    background: purple;
+    background: transparent;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    text-align: center;
+    padding-top: 170px;
 }
 .grid4{
-    background: purple;
+    background: transparent;
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+    border-radius: 5px;
+    border: #001;
+    text-align: center;
+    padding-top: 170px;
 }
 .grid3{
     background-image: url("../image/moi.jpg");
