@@ -1,3 +1,14 @@
+//ouvrir burger
+function openMenu() {
+    document.getElementById("bur").style.height = '100%'
+    
+}
+//fermer burger
+function closeMenu() {
+    document.getElementById("bur").style.height = '0%'
+    
+}
+
 let imgbx = document.querySelectorAll('.imgbx')
 imgbx.forEach(popup => popup.addEventListener('click', () => 
 {
