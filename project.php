@@ -18,7 +18,7 @@ include("include.php");
         <div class="card">
            <div class="containt">
               <h2>Project 1</h2>
-              <p>Here is one of my projet a website witch i do with wordpress</p>
+              <p>wordpress</p>
               <a href="#" onclick="toggle()">more info</a>
      
            </div>
@@ -27,7 +27,7 @@ include("include.php");
         <div class="card">
            <div class="containt">
               <h2>Project 2</h2>
-              <p>The second projet is in developpement (brainstorming)</p>
+              <p>brainstorming <br>Quick money</p>
               <a href="#" onclick="togglee()">more info</a>
      
            </div>
@@ -50,10 +50,7 @@ include("include.php");
         </div>
      
      
-     
-         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-             <script type="text/javascript" src="js/anime.js"></script>
-
-
+      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script type="text/javascript" src="js/anime.js"></script>
 </body>
 </html>

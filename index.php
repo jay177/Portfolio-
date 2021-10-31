@@ -13,6 +13,18 @@
 include("include.php");
 
 ?>
+<div class="sidebar-contact">
+    <div class="toggle"></div>
+    <h2>Contact Us</h2>
+    <form action="">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="rel" placeholder="Phone Number">
+      <textarea placeholder="Message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  <div class="banner"></div>
 
 <section>
     
@@ -36,7 +48,7 @@ include("include.php");
            <p>Computer</p>
            <p>Anything in link whit japan</p>
         </div>
-        <div class="grid2">
+        <div class="grid5">
            <h1>Hard skils</h1>
            <p>html</p>
            <p>css(but always learning)</p>
@@ -49,7 +61,7 @@ include("include.php");
             <p>20 ans <br>IIM A2 Web</p>
 
         </div>
-        <div class="grid4">
+        <div class="grid6">
            <h1>soft skils</h1>
            <p>Team work</p>
            <p>Quick learner</p>
@@ -62,7 +74,7 @@ include("include.php");
 
      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
          <script type="text/javascript" src="js/anime.js"></script>
- </body>
+
  
  
     

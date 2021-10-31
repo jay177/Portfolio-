@@ -47,3 +47,12 @@ document.addEventListener("mousemove", function(e){
 
     content.style.left = 100 + e.pageX/3 + 'px';
 })
+
+$(document).ready(function(){
+    $('.toggle').click(function() {
+      $('.sidebar-contact').toggleClass('active');
+      $('.toggle').toggleClass('active');
+      
+    })
+    
+  });
