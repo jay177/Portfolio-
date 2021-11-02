@@ -26,9 +26,12 @@ include("include.php");
   </div>
   <div class="banner"></div>
 
-<section>
+
     
     <div class="grille">
+       <div class="gridA">
+          <h1>Welcom</h1>
+       </div>
 
         <div class="grid0">
            <div>
@@ -46,7 +49,7 @@ include("include.php");
            <p>Clothing</p>
            <p>Parfum</p>
            <p>Computer</p>
-           <p>Anything in link whit japan</p>
+           <p>Anything in link with japan</p>
         </div>
         <div class="grid5">
            <h1>Hard skils</h1>
@@ -70,7 +73,7 @@ include("include.php");
         </div>
         
     </div>
-</section>
+
 
      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
          <script type="text/javascript" src="js/anime.js"></script>
