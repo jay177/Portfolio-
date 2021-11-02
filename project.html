@@ -8,11 +8,29 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<?php
+<div id="bur" class="asburger">
+            <a href="javascript: void(0)" class="bouton" onclick="closeMenu()">&times;</a>
+            <div class="list-plongeante">
+                <a href="index.html">Home</a>
+                <a href="project.html">My project</a>
+                <a href="skils.html">skils</a>
+            </div>
+        </div>
+        <!-- icone menu burger -->
+        <div class="burger" onclick="openMenu()">&#9776;</div>
 
-include("include.php");
-
-?>
+<div class="sidebar-contact">
+    <div class="toggle"></div>
+    <h2>Contact Us</h2>
+    <form action="">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="rel" placeholder="Phone Number">
+      <textarea placeholder="Message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  <div class="banner"></div>
     <h1 class="proj">My project</h1>
     <div class="container" id="blur">
         <div class="card">
